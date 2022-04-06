@@ -1,0 +1,76 @@
+/* card styles */
+.card {
+  width: 305px;
+  height: 482px;
+  background: #ffffff;
+  box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+  margin-bottom: 32px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.card__img {
+  position: relative;
+
+  .card__created {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+
+    p {
+      font-weight: 400;
+      font-size: 12px;
+      color: #f3f3f3;
+    }
+
+    .created__initials {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      color: #ffffff;
+    }
+  }
+
+  .card__name {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    width: 200px;
+  }
+}
+
+.card__info {
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.info__titles {
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #808080;
+  }
+}
+
+.info__values {
+  display: flex;
+  justify-content: space-between;
+
+  .currency {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #0040e6;
+  }
+}
