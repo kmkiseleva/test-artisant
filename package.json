@@ -1,6 +1,7 @@
 {
   "name": "test-artisant",
   "version": "0.1.0",
+  "homepage": "https://kmkiseleva.github.io/test-artisant",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.1",
